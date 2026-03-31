@@ -15,7 +15,6 @@ int main() {
     }
      
     if(i != 499) {
-    cout << "Processando..." << endl;
     }
 
     else {

@@ -62,21 +62,18 @@ namespace LPR
         {
             int total = 0;
 
-            // escolha 1
             if (escolha1 == 1) total += pontuacao1;
             if (escolha1 == 2) total += pontuacao2;
             if (escolha1 == 3) total += pontuacao3;
             if (escolha1 == 4) total += pontuacao4;
             if (escolha1 == 5) total += pontuacao5;
-
-            // escolha 2
+ 
             if (escolha2 == 1) total += pontuacao1;
             if (escolha2 == 2) total += pontuacao2;
             if (escolha2 == 3) total += pontuacao3;
             if (escolha2 == 4) total += pontuacao4;
             if (escolha2 == 5) total += pontuacao5;
 
-            // escolha 3
             if (escolha3 == 1) total += pontuacao1;
             if (escolha3 == 2) total += pontuacao2;
             if (escolha3 == 3) total += pontuacao3;
@@ -90,7 +87,6 @@ namespace LPR
         {
             Console.WriteLine("Sua equipe é:");
 
-            // escolha 1
             if (escolha1 == 1)
                 Console.WriteLine($"{heroi1}, seu poder é {poder1}, sua pontuação {pontuacao1}");
             if (escolha1 == 2)
@@ -102,7 +98,6 @@ namespace LPR
             if (escolha1 == 5)
                 Console.WriteLine($"{heroi5}, seu poder é {poder5}, sua pontuação {pontuacao5}");
 
-            // escolha 2
             if (escolha2 == 1)
                 Console.WriteLine($"{heroi1}, seu poder é {poder1}, sua pontuação {pontuacao1}");
             if (escolha2 == 2)
@@ -114,7 +109,6 @@ namespace LPR
             if (escolha2 == 5)
                 Console.WriteLine($"{heroi5}, seu poder é {poder5}, sua pontuação {pontuacao5}");
 
-            // escolha 3
             if (escolha3 == 1)
                 Console.WriteLine($"{heroi1}, seu poder é {poder1}, sua pontuação {pontuacao1}");
             if (escolha3 == 2)

@@ -9,7 +9,7 @@ int main() {
     SetConsoleCP(65001);
 
     int numeros[10];
-    int pares [10] = {0};
+    int pares [10] = {0}; // {0} zera o valor do vetor
     int impares [10] = {0};
     int i = 0;
 
@@ -26,7 +26,7 @@ int main() {
         }
     }
  
-    cout << "Numeros pares:" << endl;
+    cout << "Números pares:" << endl;
     for(i = 0; i < 10; i++) {
         if(pares[i] != 0) {
             cout << pares[i] << " ";
@@ -34,7 +34,7 @@ int main() {
     }
     cout << endl;
 
-    cout << "Numeros impares:" << endl;
+    cout << "Números impares:" << endl;
     for(i = 0; i < 10; i++) {
         if(impares[i] != 0) {
             cout << impares[i] << " ";

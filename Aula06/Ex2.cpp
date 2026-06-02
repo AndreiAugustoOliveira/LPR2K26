@@ -1,5 +1,6 @@
 #include <iostream>
 #include <iomanip>
+#include <windows.h>
 
 using namespace std;
 
@@ -12,9 +13,9 @@ void Ex1() {
     int contador = 0;
     double contadorPar = 0;
 
-    cout << "Digite a quantidade de numeros que voce vai digitar: " << endl;
+    cout << "Digite a quantidade de números que voce vai digitar: " << endl;
     cin >> quantidade;
-    cout << "Digite um numero inteiro qualquer: " << endl;
+    cout << "Digite um número inteiro qualquer: " << endl;
     cin >> numero;
     contador++;
     
@@ -24,7 +25,7 @@ void Ex1() {
      }
 
     while(quantidade != contador) {
-    cout << "Digite um numero inteiro qualquer: " << endl;
+    cout << "Digite um número inteiro qualquer: " << endl;
     cin >> numero;
     contador++;
 
@@ -36,7 +37,7 @@ void Ex1() {
     
     media = acumulador/contadorPar;
 
-    cout << "A media dos numeros e: " << media << endl;
+    cout << "A média dos números é: " << media << endl;
     system("pause");
     return;
 }
@@ -56,7 +57,7 @@ void Ex2() {
 
     else {
     
-  cout << "A soma de todos os numeros impares multiplos de 3 que se encontrem no conjunto dos numeros de 50 a 500 e: " << acumulador << endl;
+  cout << "A soma de todos os números ímpares múltiplos de 3 que se encontrem no conjunto dos números de 50 a 500 é: " << acumulador << endl;
   system("pause");
   return;
    } 
@@ -68,7 +69,7 @@ void Ex3 () {
     int soma = 0;
     int digito = 0;
 
-    cout << "Digite um numero: ";
+    cout << "Digite um número: ";
     cin >> num;
 
     int quadrado = num * num;
@@ -79,7 +80,7 @@ void Ex3 () {
         quadrado /= 10;
     }
 
-    cout << "A soma dos digitos do quadrado e: " << soma << endl;
+    cout << "A soma dos dígitos do quadrado é: " << soma << endl;
     system("pause");
     return;
 
@@ -87,13 +88,16 @@ void Ex3 () {
 
 int main() {
 
+      SetConsoleOutputCP(65001);
+      SetConsoleCP(65001);
+
 int escolha = 0;
 
   cout << "Bem vindo!" << endl;
-  cout << "Digite o numero do exercicio que voce deseja executar: " << endl;
-  cout << "1 - Exercicio 1" << endl;
-  cout << "2 - Exercicio 2" << endl;        
-  cout << "3 - Exercicio 3" << endl;
+  cout << "Digite o número do exercício que você deseja executar: " << endl;
+  cout << "1 - Exercício 1" << endl;
+  cout << "2 - Exercício 2" << endl;        
+  cout << "3 - Exercício 3" << endl;
 
   cin >> escolha;
 
@@ -108,7 +112,7 @@ int escolha = 0;
         Ex3();
         break;
     default:
-        cout << "Opcao invalida!" << endl;
+        cout << "Opção inválida!" << endl;
 
     system("pause");
     return 0;

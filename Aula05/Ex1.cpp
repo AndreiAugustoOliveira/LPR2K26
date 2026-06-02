@@ -1,9 +1,13 @@
 #include <iostream>
 #include <iomanip>
+#include <windows.h>
 
 using namespace std;
 
 int main() {
+
+      SetConsoleOutputCP(65001);
+      SetConsoleCP(65001);
 
     int quantidade = 0;
     int numero = 0;
@@ -12,9 +16,9 @@ int main() {
     int contador = 0;
     double contadorPar = 0;
 
-    cout << "Digite a quantidade de numeros que voce vai digitar: " << endl;
+    cout << "Digite a quantidade de números que você vai digitar: " << endl;
     cin >> quantidade;
-    cout << "Digite um numero inteiro qualquer: " << endl;
+    cout << "Digite um número inteiro qualquer: " << endl;
     cin >> numero;
     contador++;
     
@@ -24,7 +28,7 @@ int main() {
      }
 
     while(quantidade != contador) {
-    cout << "Digite um numero inteiro qualquer: " << endl;
+    cout << "Digite um número inteiro qualquer: " << endl;
     cin >> numero;
     contador++;
 
@@ -36,7 +40,7 @@ int main() {
     
     media = acumulador/contadorPar;
 
-    cout << "A media dos numeros e: " << media << endl;
+    cout << "A média dos números é: " << media << endl;
     
     system("pause");
     return 0;

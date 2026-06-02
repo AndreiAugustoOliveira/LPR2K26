@@ -1,9 +1,13 @@
 #include <iostream>
 #include <iomanip>
+#include <windows.h>
 
 using namespace std;
 
 int main() {
+
+    SetConsoleOutputCP(65001);
+    SetConsoleCP(65001);
 
    int i;
    int acumulador = 0;
@@ -19,11 +23,10 @@ int main() {
 
     else {
     
-  cout << "A soma de todos os numeros impares multiplos de 3 que se encontrem no conjunto dos numeros de 50 a 500 e: " << acumulador << endl;
+  cout << "A soma de todos os números ímpares múltiplos de 3 que se encontrem no conjunto dos números de 50 a 500 é: " << acumulador << endl;
 
    } 
 }
-
     system("pause");
     return 0;
 }

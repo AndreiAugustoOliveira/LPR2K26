@@ -1,13 +1,18 @@
 #include <iostream>
 #include <iomanip>
+#include <windows.h>
+
 using namespace std;
 
 int main() {
 
+    SetConsoleOutputCP(65001);
+    SetConsoleCP(65001);
+
     short numero, horas;
     float valor, salario;
 
-    cout << "Digite seu numero de identificacao: ";
+    cout << "Digite seu número de identificação: ";
     cin >> numero;
 
     cout << "Digite a quantidade de horas trabalhadas: ";
@@ -18,9 +23,9 @@ int main() {
 
     salario = horas * valor;
 
-    cout << "O numero do funcionario e: " << numero << endl;
+    cout << "O número do funcionário é: " << numero << endl;
     cout << fixed << setprecision(2);
-    cout << "O seu salario e: R$" << salario << endl;
+    cout << "O seu salário é: R$" << salario << endl;
    
     system("pause");
     return 0;

@@ -1,16 +1,19 @@
 #include <iostream>
 #include <iomanip>
+#include <windows.h>
 
 using namespace std;
 
 int main() {
+    SetConsoleOutputCP(65001);
+    SetConsoleCP(65001);
 
     int numeros[10];
     int pares [10] = {0};
     int impares [10] = {0};
     int i = 0;
 
-    cout << "Digite 10 numeros inteiros:" << endl;
+    cout << "Digite 10 números inteiros:" << endl;
 
     for(i = 0; i < 10; i++) {
 

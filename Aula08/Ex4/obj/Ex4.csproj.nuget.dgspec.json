@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\LPR2K26\\Aula07\\Ex3\\Ex3.csproj": {}
+    "D:\\LPR2K26\\Aula08\\Ex4\\Ex4.csproj": {}
   },
   "projects": {
-    "D:\\LPR2K26\\Aula07\\Ex3\\Ex3.csproj": {
+    "D:\\LPR2K26\\Aula08\\Ex4\\Ex4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LPR2K26\\Aula07\\Ex3\\Ex3.csproj",
-        "projectName": "Ex3",
-        "projectPath": "D:\\LPR2K26\\Aula07\\Ex3\\Ex3.csproj",
+        "projectUniqueName": "D:\\LPR2K26\\Aula08\\Ex4\\Ex4.csproj",
+        "projectName": "Ex4",
+        "projectPath": "D:\\LPR2K26\\Aula08\\Ex4\\Ex4.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "D:\\LPR2K26\\Aula07\\Ex3\\obj\\",
+        "outputPath": "D:\\LPR2K26\\Aula08\\Ex4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

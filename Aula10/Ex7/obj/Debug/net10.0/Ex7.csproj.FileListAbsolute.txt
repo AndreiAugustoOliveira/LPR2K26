@@ -1,0 +1,15 @@
+d:\LPR2K26\Aula10\Ex7\bin\Debug\net10.0\Ex7.exe
+d:\LPR2K26\Aula10\Ex7\bin\Debug\net10.0\Ex7.deps.json
+d:\LPR2K26\Aula10\Ex7\bin\Debug\net10.0\Ex7.runtimeconfig.json
+d:\LPR2K26\Aula10\Ex7\bin\Debug\net10.0\Ex7.dll
+d:\LPR2K26\Aula10\Ex7\bin\Debug\net10.0\Ex7.pdb
+d:\LPR2K26\Aula10\Ex7\obj\Debug\net10.0\Ex7.GeneratedMSBuildEditorConfig.editorconfig
+d:\LPR2K26\Aula10\Ex7\obj\Debug\net10.0\Ex7.AssemblyInfoInputs.cache
+d:\LPR2K26\Aula10\Ex7\obj\Debug\net10.0\Ex7.AssemblyInfo.cs
+d:\LPR2K26\Aula10\Ex7\obj\Debug\net10.0\Ex7.csproj.CoreCompileInputs.cache
+d:\LPR2K26\Aula10\Ex7\obj\Debug\net10.0\Ex7.sourcelink.json
+d:\LPR2K26\Aula10\Ex7\obj\Debug\net10.0\Ex7.dll
+d:\LPR2K26\Aula10\Ex7\obj\Debug\net10.0\refint\Ex7.dll
+d:\LPR2K26\Aula10\Ex7\obj\Debug\net10.0\Ex7.pdb
+d:\LPR2K26\Aula10\Ex7\obj\Debug\net10.0\Ex7.genruntimeconfig.cache
+d:\LPR2K26\Aula10\Ex7\obj\Debug\net10.0\ref\Ex7.dll

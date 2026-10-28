@@ -1,0 +1,15 @@
+d:\LPR2K26\Aula10\Ex5\bin\Debug\net10.0\Ex5.exe
+d:\LPR2K26\Aula10\Ex5\bin\Debug\net10.0\Ex5.deps.json
+d:\LPR2K26\Aula10\Ex5\bin\Debug\net10.0\Ex5.runtimeconfig.json
+d:\LPR2K26\Aula10\Ex5\bin\Debug\net10.0\Ex5.dll
+d:\LPR2K26\Aula10\Ex5\bin\Debug\net10.0\Ex5.pdb
+d:\LPR2K26\Aula10\Ex5\obj\Debug\net10.0\Ex5.GeneratedMSBuildEditorConfig.editorconfig
+d:\LPR2K26\Aula10\Ex5\obj\Debug\net10.0\Ex5.AssemblyInfoInputs.cache
+d:\LPR2K26\Aula10\Ex5\obj\Debug\net10.0\Ex5.AssemblyInfo.cs
+d:\LPR2K26\Aula10\Ex5\obj\Debug\net10.0\Ex5.csproj.CoreCompileInputs.cache
+d:\LPR2K26\Aula10\Ex5\obj\Debug\net10.0\Ex5.sourcelink.json
+d:\LPR2K26\Aula10\Ex5\obj\Debug\net10.0\Ex5.dll
+d:\LPR2K26\Aula10\Ex5\obj\Debug\net10.0\refint\Ex5.dll
+d:\LPR2K26\Aula10\Ex5\obj\Debug\net10.0\Ex5.pdb
+d:\LPR2K26\Aula10\Ex5\obj\Debug\net10.0\Ex5.genruntimeconfig.cache
+d:\LPR2K26\Aula10\Ex5\obj\Debug\net10.0\ref\Ex5.dll
